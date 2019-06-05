@@ -83,9 +83,9 @@ bool createShaderProgram()
     "#version 330\n"
     ""
     "layout(location = 0) in vec2 a_position;"
-    "layout(location = 1) in float a_color;"
+    "layout(location = 1) in vec3 a_color;"
     ""
-    "out float v_color;"
+    "out vec3 v_color;"
     ""
     "void main()"
     "{"
@@ -97,13 +97,13 @@ bool createShaderProgram()
     const GLchar fsh[] =
     "#version 330\n"
     ""
-    "in float v_color;"
+    "in vec3 v_color;"
     ""
     "layout(location = 0) out vec4 o_color;"
     ""
     "void main()"
     "{"
-    "   o_color = vec4(sin(v_color * 62.83), 1.0, 1.0, 1.0);"
+    "   o_color = vec4(sin(v_color[0]*80), sin(v_color[1]*80), sin(v_color[2]*80), 0.0);"
     "}"
     ;
 

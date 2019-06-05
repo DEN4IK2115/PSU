@@ -2,6 +2,8 @@
 g++ main.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o main.elf
 g++ exampl1.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o main.elf
 
+cd ./GitHub/PSU/Вычислительная_геомтрия_и_алгоритмы_компьютерной_графики
+
 Команда для запуска лабораторной работы №1
 Часть №1
 g++ lab1_1.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o lab1_1.elf
