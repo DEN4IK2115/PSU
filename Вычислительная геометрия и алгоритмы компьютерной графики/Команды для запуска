@@ -1,3 +1,11 @@
+
 g++ main.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o main.elf
 g++ exampl1.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o main.elf
+
+Команда для запуска лабораторной работы №1
+Часть №1
 g++ lab1_1.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o lab1_1.elf
+Часть №2
+g++ lab1_2.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o lab1_2.elf
+Часть №3
+g++ lab1_3.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o lab1_3.elf
