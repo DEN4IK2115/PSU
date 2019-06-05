@@ -1,0 +1,3 @@
+g++ main.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o main.elf
+g++ exampl1.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o main.elf
+g++ lab1_1.cpp -lGL -lGLU -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -o lab1_1.elf
