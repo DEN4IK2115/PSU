@@ -103,7 +103,7 @@ bool createShaderProgram()
     ""
     "void main()"
     "{"
-    "   o_color = vec4(sin(v_color[0]*80), sin(v_color[1]*80), sin(v_color[2]*80), 0.0);"
+    "   o_color = vec4(sin(v_color[0]*90), sin(v_color[1]*90), sin(v_color[2]*90), 0.0);"
     "}"
     ;
 
